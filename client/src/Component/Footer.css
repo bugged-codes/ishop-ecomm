@@ -1,0 +1,39 @@
+.footer-div-1{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-around;
+    padding: 2%;
+}
+.flexfoot1{
+    padding: 10px;
+}
+.footer{
+    background-color: white;
+}
+.ishopheadfoot{
+    color: rgb(167, 165, 165);
+    font-size: 3em;
+}
+.footer-div-2{
+    display: flex;
+    justify-content: space-around;
+    padding: 2%;
+    width: 90%;
+    margin: auto;
+}
+
+@media only screen and (max-width:600px){
+    .footer-div-1{
+        display: block;
+        width: 90%;
+    
+    }
+    
+    
+    .footer-div-2{
+        display: block;
+       
+    }
+
+}

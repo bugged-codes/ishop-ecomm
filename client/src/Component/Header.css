@@ -1,0 +1,100 @@
+.header{
+    background-color: white;
+    padding: 15px auto;
+    box-sizing: content-box;
+}
+.header-heading{
+    display: flex;
+    justify-content: center;
+    color: rgb(169, 38, 5);
+    font-size: 4em;
+    font-weight: bold;
+}
+.navbar{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+    padding: 20px;
+}
+.navbarspan{
+    transition: transform 0.5s;
+}
+.navbarspan:hover{
+    transform: scale(1.2);
+    color: rgb(169, 38, 5);
+    cursor: grab;
+}
+
+.hamber-logo{
+    display: none;
+    transform: rotate(90deg);
+}
+.cart-symbol{
+    color: white;
+}
+.cartnav{
+    display: flex;
+    align-items: center;
+    background-color:#000305 ;
+    justify-content: space-between;
+}
+.cartnav span{
+    color: white;
+    margin-left: 30px;
+}
+
+.cart-num-nav{
+    display: flex;
+   margin: 10px 90%;
+}
+.cartnumber{
+    position: relative;
+    top: -19%;
+    right: 66%;
+    background-color: red;
+    color: white;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 0.7em;
+}
+@media only screen and (max-width:600px){
+    .hamber-logo{
+        display: block;
+        margin: 0% 90%;
+        padding: 10px;
+        cursor: grab;
+        
+    }
+    .navbar{
+        display: none;
+    }
+    .navbarshow{
+        display: block;
+        justify-content: center;
+        background-color: black;
+        color: white;
+        text-align: center;
+        margin: 5px;
+        border-radius: 2px;
+        margin: 20px;
+    }
+    .navbarspan{
+        display: block;
+        font-weight: bold;
+    }
+    .cart-num-nav{
+        display: flex;
+       margin: 10px 70%;
+    }
+
+}
+@media (min-width:500px) and (max-width:800px){
+    .cart-num-nav{
+        display: flex;
+       margin: 10px 80%;
+    }
+}

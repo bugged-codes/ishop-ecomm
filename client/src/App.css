@@ -1,0 +1,166 @@
+.phone-container{
+    background-color: white;
+    border: 3px solid rgb(201, 198, 198);
+    border-radius: 5px;
+    text-align: center;
+    margin: 3% 1%;
+    transition: transform 0.5s;
+    width: 20%;
+    padding: 1%;
+
+}
+
+.phone-container:hover{
+    transform: scale(1.1);
+    box-shadow: 15px 15px 10px rgb(200, 195, 195), -10px -10px 10px rgb(200, 195, 195);
+    border: 3px solid rgb(171, 169, 169);
+    border-radius: 0px;
+
+
+    
+}
+.add-btn{
+    background-color: rgb(169, 38, 5);
+    display: flex;
+margin: auto;    color: white;
+    padding: 5px 20px;
+    font-weight: bold;
+    align-items: center;
+box-shadow: 3px 3px 2px rgb(192, 188, 188);
+border: 0px solid black;
+margin-bottom: 20px;
+}
+.add-btn:hover{
+    background-color: rgb(3, 101, 3);
+    color: white;
+
+}
+.phone-img{
+    width: 70%;
+    height: 200px;
+    object-fit: contain;
+}
+.phone-name{
+    color:  rgb(169, 38, 5);
+    text-transform: uppercase;
+}
+.phone-company{
+    color: green;
+    font-weight: bold;
+}
+.incre-decre-btn{
+    width: 30px;
+    background-color: grey;
+    color: white;
+    border-radius: 10%;
+    font-weight: bold;
+    font-size: 1.2em;
+    border: 0px;
+}
+.incre-decre-btn:hover{
+    background-color: black;
+    
+}
+.phone-list-container{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.cart-phone-list-container{
+    display: flex;
+    gap: 10px;
+   flex-direction: column;
+   
+}
+.heading-cart{
+    text-align: center;
+    text-decoration: underline;
+}
+.old-price{
+    color: grey;
+    text-decoration: line-through;
+}
+.cart-container{
+    border: 2px solid rgb(149, 149, 153);
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    padding: 2%;
+}
+
+.cart-item-button{
+    display: flex;
+    width: 100%;
+    padding: 10px;
+}
+.cart-container div{
+    width: 100%;
+}
+
+.ipad-div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.button-buy{
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    background: #ff8400;
+    border: 1px solid #ff8400;
+    color: #fff;
+    padding: 10px 20px;
+    margin: auto;
+}
+.total-amout{
+    color: rgb(169, 38, 5);
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+.pay{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 7%;
+}
+.button-pay{
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    background: #0095ff;
+    border: 1px solid #0095ff;
+    font-style: italic;
+    color: #fff;
+    padding: 10px 20px;
+    
+margin-right: 50px;}
+.button-pay:hover{
+    background: #3c00ff;
+
+
+}
+
+@media only screen and (max-width:500px){
+    .phone-container {
+     
+      width: 90%;
+    }
+    .cart-container{
+       width: 80%;
+       margin: auto;
+        flex-direction: column;
+        text-align: center;
+    }
+    .cart-item-button{
+        width: 60%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+    }
+}
+@media (min-width:501px) and (max-width:800px){
+  .phone-container {
+   
+    width: 30%;
+  }
+}

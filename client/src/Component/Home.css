@@ -1,0 +1,12 @@
+
+.image{
+    width: 100%;
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.imgslide{
+    width: 100%;
+}

@@ -1,0 +1,108 @@
+.app {
+    background: url("https://www.androidauthority.com/wp-content/uploads/2020/12/Walli-screenshot-2021.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    height: 100vh;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    background-color: #f8f9fd;
+    opacity: 80%;
+  }
+  .profile-icon{
+    display: flex;
+    justify-content: center;
+  }
+  
+ 
+  input[type="text"],
+  input[type="password"],
+  input[type="email"] {
+    height: 25px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    width: 95%;
+  }
+  
+  input[type="submit"] {
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    background: #01d28e;
+    border: 1px solid #01d28e;
+    color: #fff;
+    padding: 10px 20px;
+    width: 95%;
+  }
+  
+  input[type="submit"]:hover {
+    background: #046824;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+  }
+  .button-create{
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    background: #015cd2;
+    border: 1px solid #015cd2;
+    color: #fff;
+    padding: 10px 20px;
+  }
+  .button-create:hover{
+    background: #017bd2;
+
+
+  }
+  .login-form {
+    background-color: white;
+    padding: 2rem;
+    width: 30%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .list-container {
+    display: flex;
+  }
+  
+  .error {
+    color: red;
+    font-size: 12px;
+  }
+  
+  .title {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin: 10px;
+  }
+
+  .forget-password{
+    text-align: center;
+    color: #017bd2;
+  }
+
+  @media only screen and (max-width:600px){
+    .login-form {
+     
+      width: 60%;
+    }
+}
+@media (min-width:601px) and (max-width:900px){
+  .login-form {
+   
+    width: 50%;
+  }
+}
